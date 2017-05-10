@@ -64,8 +64,8 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Screenshots ==
 
-1. When the plugin is running, there will be a warning on the backend of the website.
-1. Lies! The email wasn't really sent, we're running Stop Emails
+1. The backend comment edit page.
+1. The new Comment Parent field.
 
 == Changelog ==
 
