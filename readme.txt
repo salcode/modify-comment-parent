@@ -69,5 +69,8 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.1 =
+* Increase text input box width. Previously, it was too narrow for large numbers.
+
+= 1.0.0 =
 * Initial release.

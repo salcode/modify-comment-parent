@@ -3,7 +3,7 @@
  * Plugin Name: Modify Comment Parent
  * Plugin URI: http://salferrarello.com/modify-comment-parent-wordpress-plugin/
  * Description: Add a Comment Parent Field to the Edit Comment page.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Sal Ferrarello
  * Author URI: http://salferrarello.com/
  * Text Domain: modify-comment-parent
@@ -42,7 +42,7 @@ function fe_mcp_add_meta_box_callback( $comment ) {
 		<tr valign="top">
 			<th scope="row">Parent Comment ID</th>
 			<td>
-				<p><input type="text" name="fe_mcp_parent_comment_id" class="small-text" id="fe-mcp-parent-comment-id" value="<?php echo esc_attr( $comment->comment_parent ); ?>"></p>
+				<p><input type="text" name="fe_mcp_parent_comment_id" id="fe-mcp-parent-comment-id" value="<?php echo esc_attr( $comment->comment_parent ); ?>"></p>
 			</td>
 		</tr>
 	</tbody>
