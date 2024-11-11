@@ -2,7 +2,7 @@
 Contributors: salcode
 Tags: comment
 Requires at least: 3.6
-Tested up to: 4.7
+Tested up to: 6.7
 Stable tag: trunk
 License: Apache License, Version 2.0
 License URI: http://www.apache.org/licenses/LICENSE-2.0
