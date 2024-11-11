@@ -56,7 +56,7 @@ function fe_mcp_add_meta_box_callback( $comment ) {
 function fe_mcp_update_comment_parent() {
 	$comment_parent = intval( filter_input( INPUT_POST, 'fe_mcp_parent_comment_id', FILTER_VALIDATE_INT ) );
 	$comment_id     = intval( filter_input( INPUT_POST, 'comment_ID', FILTER_VALIDATE_INT ) );
-	$nonce          = filter_input( INPUT_POST, 'fe_modify_comment_parent_nonce', FILTER_SANITIZE_STRING );
+	$nonce          = filter_input( INPUT_POST, 'fe_modify_comment_parent_nonce', FILTER_UNSAFE_RAW );
 
 	if ( ! $comment_id ) {
 		// We don't have a comment to modify, make no changes.

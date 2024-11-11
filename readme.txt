@@ -69,6 +69,9 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Changelog ==
 
+= Unreleased =
+* Replace `FILTER_SANITIZE_STRING` with `FILTER_UNSAFE_RAW` ([#2](https://github.com/salcode/modify-comment-parent/issues/2))
+
 = 1.0.1 =
 * Increase text input box width. Previously, it was too narrow for large numbers.
 
