@@ -69,7 +69,7 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Changelog ==
 
-= Unreleased =
+= 1.0.2 =
 * Replace `FILTER_SANITIZE_STRING` with `FILTER_UNSAFE_RAW` ([#2](https://github.com/salcode/modify-comment-parent/issues/2))
 
 = 1.0.1 =
