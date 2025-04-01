@@ -69,7 +69,7 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Changelog ==
 
-= Unreleased =
+= 1.0.3 =
 * Remove extraneous `return $post_id;` to prevent PHP Warning `Undefined variable $post_id` ([#6](https://github.com/salcode/modify-comment-parent/issues/6))
 
 = 1.0.2 =

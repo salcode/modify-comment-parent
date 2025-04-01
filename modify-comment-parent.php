@@ -3,7 +3,7 @@
  * Plugin Name: Modify Comment Parent
  * Plugin URI: http://salferrarello.com/modify-comment-parent-wordpress-plugin/
  * Description: Add a Comment Parent Field to the Edit Comment page.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Sal Ferrarello
  * Author URI: http://salferrarello.com/
  * Text Domain: modify-comment-parent
