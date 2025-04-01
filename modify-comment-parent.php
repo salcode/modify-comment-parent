@@ -65,7 +65,7 @@ function fe_mcp_update_comment_parent() {
 
 	if ( ! $nonce ) {
 		// We do not have a nonce value, make no changes.
-		return $post_id;
+		return;
 	}
 
 	if ( ! wp_verify_nonce( $nonce, 'fe_modify_comment_parent' ) ) {

@@ -69,6 +69,9 @@ Please report bugs at https://github.com/salcode/modify-comment-parent/issues
 
 == Changelog ==
 
+= Unreleased =
+* Remove extraneous `return $post_id;` to prevent PHP Warning `Undefined variable $post_id` ([#6](https://github.com/salcode/modify-comment-parent/issues/6))
+
 = 1.0.2 =
 * Replace `FILTER_SANITIZE_STRING` with `FILTER_UNSAFE_RAW` ([#2](https://github.com/salcode/modify-comment-parent/issues/2))
 
